@@ -8,25 +8,14 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3200&pause=900&color=7AA2F7&vCenter=true&width=620&lines=infra+%C2%B7+sysadmin+%C2%B7+devops;keeping+datacenters+boring+(the+good+kind);automating+the+toil%2C+one+script+at+a+time;agents+in+the+terminal%2C+humans+in+the+loop" alt="infra · sysadmin · devops" />
 </p>
 
+<p align="center">
+  <img src="fetch.svg" alt="bazz@sirius fastfetch: CachyOS, niri, Infra · SysAdmin · DevOps, VMware, Veeam, Zabbix, Bash, PowerShell, Rust, Claude Code" />
+</p>
+
 ```console
 bazz@sirius:~$ whoami
 Infrastructure engineer. I run datacenters, virtualization and backup for
 companies that need them to just work, then automate whatever I touch twice.
-
-bazz@sirius:~$ cat focus.txt
-  infra      virtualization, storage, backup and DR across two datacenters
-  sysadmin   Windows Server and Linux fleets, AD, GPO, SSH, the daily triage
-  devops     scripts over clicks, config in git, monitoring that pages for a reason
-  ai         Claude Code agents, skills and plugins wired into the ops workflow
-
-bazz@sirius:~$ ls ~/stack
-  virtualization/  VMware vSphere   Oracle Linux Virtualization   Hyper-V
-  backup/          Veeam B&R   Veeam ONE   Veeam Cloud Connect   Wasabi S3
-  monitoring/      Zabbix   Grafana   Telegraf   Uptime Kuma
-  systems/         Linux (Arch, Oracle Linux, Debian)   Windows Server
-  automation/      Bash   PowerShell   Rust   rclone   systemd
-  ai/              Claude Code   MCP   agent skills and plugins
-  desk/            niri   DankMaterialShell   kitty   Ghostty   byobu   herdr
 
 bazz@sirius:~$ cat now.txt
   - building Claude Code skills and plugins for real ops work
