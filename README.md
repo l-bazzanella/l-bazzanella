@@ -1,14 +1,10 @@
 <!-- Profile README for github.com/l-bazzanella -->
 
-```text
-    __                                     ____
-   / /_  ____ _________  ____ _____  ___  / / /___ _
-  / __ \/ __ `/_  /_  / / __ `/ __ \/ _ \/ / / __ `/
- / /_/ / /_/ / / /_/ /_/ /_/ / / / /  __/ / / /_/ /
-/_.___/\__,_/ /___/___/\__,_/_/ /_/\___/_/_/\__,_/
-```
+<p align="center">
+  <img src="banner.svg" alt="bazzanella" />
+</p>
 
-<p align="left">
+<p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3200&pause=900&color=7AA2F7&vCenter=true&width=620&lines=infra+%C2%B7+sysadmin+%C2%B7+devops;keeping+datacenters+boring+(the+good+kind);automating+the+toil%2C+one+script+at+a+time;agents+in+the+terminal%2C+humans+in+the+loop" alt="infra · sysadmin · devops" />
 </p>
 
