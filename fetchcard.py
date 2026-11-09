@@ -56,8 +56,7 @@ logo_w = max(map(len, logo)) * logo_cw
 info_x = PAD + logo_w + GAP
 info_w = max(len(f"{k}: {v}") for t, k, v in INFO if t == "kv") * CW
 width = int(info_x + info_w + PAD)
-prompt_y = BAR + PAD + FONT
-body_top = prompt_y + LH * 0.9
+body_top = BAR + PAD * 0.75
 height = int(body_top + info_h + PAD)
 
 
@@ -77,10 +76,6 @@ out = [
 ]
 for i, c in enumerate(["#f7768e", "#e0af68", "#9ece6a"]):
     out.append(f'<circle cx="{20 + i * 20}" cy="{BAR / 2}" r="6" fill="{c}"/>')
-out.append(f'<text x="{width / 2}" y="{BAR / 2 + 5}" fill="{DIM}" text-anchor="middle">bazz@sirius: ~</text>')
-
-out.append(text(PAD, prompt_y, "bazz@sirius:~$", USER, bold=True))
-out.append(text(PAD + 15 * CW, prompt_y, "fastfetch", VAL))
 
 for i, line in enumerate(logo):
     if line.strip("⠀ "):
