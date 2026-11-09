@@ -13,8 +13,8 @@ from pathlib import Path
 
 # (kind, key, value, icon)
 INFO = [
-    ("title", "bazz", "sirius", None),
-    ("sep", "-----------", None, None),
+    ("title", "bazzanella", None, None),
+    ("sep", "-" * len("bazzanella"), None, None),
     ("kv", "OS", "CachyOS (Arch Linux) x86_64", "archlinux"),
     ("kv", "WM", "niri (Wayland)", "wayland"),
     ("kv", "Shell", "zsh + DankMaterialShell", "zsh"),
@@ -130,7 +130,7 @@ height = int(stack_top + STACK_ICON + PAD)
 
 out = [
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" '
-    f'role="img" aria-label="bazz@sirius fastfetch">',
+    f'role="img" aria-label="bazzanella fastfetch">',
     f'<style>text{{font-family:"JetBrains Mono","DejaVu Sans Mono",Menlo,Consolas,"Segoe UI Symbol",monospace;font-size:{FONT}px}}</style>',
     f'<rect width="{width}" height="{height}" rx="12" fill="{BG}"/>',
     f'<path d="M0 12a12 12 0 0 1 12-12h{width - 24}a12 12 0 0 1 12 12v{BAR - 12}h-{width}z" fill="{BAR_BG}"/>',
@@ -149,8 +149,9 @@ for i, (kind, k, v, ico) in enumerate(INFO):
         out.append(icon(ico, info_x, y - FONT + 1.5, ICON))
     if kind == "title":
         out.append(text(text_x, y, k, USER, bold=True))
-        out.append(text(text_x + len(k) * CW, y, "@", VAL))
-        out.append(text(text_x + (len(k) + 1) * CW, y, v, KEY, bold=True))
+        if v:  # user@host, as fastfetch prints it
+            out.append(text(text_x + len(k) * CW, y, "@", VAL))
+            out.append(text(text_x + (len(k) + 1) * CW, y, v, KEY, bold=True))
     elif kind == "sep":
         out.append(text(text_x, y, k, DIM))
     elif kind == "kv":

@@ -9,15 +9,15 @@
 </p>
 
 <p align="center">
-  <img src="fetch.svg" alt="bazz@sirius fastfetch: CachyOS, niri, Infra · SysAdmin · DevOps, VMware, Veeam, Zabbix, Bash, PowerShell, Rust, Claude Code" />
+  <img src="fetch.svg" alt="bazzanella fastfetch: CachyOS, niri, Infra · SysAdmin · DevOps, VMware, Veeam, Zabbix, Bash, PowerShell, Rust, Claude Code" />
 </p>
 
 ```console
-bazz@sirius:~$ whoami
+bazzanella:~$ whoami
 Infrastructure engineer. I run datacenters, virtualization and backup for
 companies that need them to just work, then automate whatever I touch twice.
 
-bazz@sirius:~$ cat now.txt
+bazzanella:~$ cat now.txt
   - building Claude Code skills and plugins for real ops work
   - tightening monitoring: fewer alerts, better ones
   - turning runbooks into scripts
@@ -26,12 +26,12 @@ bazz@sirius:~$ cat now.txt
 ### PT-BR
 
 ```console
-bazz@sirius:~$ whoami --lang pt-br
+bazzanella:~$ whoami --lang pt-br
 Engenheiro de infraestrutura. Cuido de datacenter, virtualização e backup
 para empresas que precisam que tudo funcione, e automatizo o que faço mais
 de uma vez.
 
-bazz@sirius:~$ cat foco.txt
+bazzanella:~$ cat foco.txt
   infra      virtualização, storage, backup e DR entre dois datacenters
   sysadmin   Windows Server e Linux, AD, GPO, SSH, a triagem do dia a dia
   devops     script no lugar de clique, config no git, alerta que tem motivo
@@ -39,7 +39,7 @@ bazz@sirius:~$ cat foco.txt
 ```
 
 ```console
-bazz@sirius:~$ uptime
+bazzanella:~$ uptime
  up since 2021 · always on call · coffee: high
 ```
 
